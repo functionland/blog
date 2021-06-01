@@ -1,7 +1,7 @@
 # Google Photos open-source alternative with React Native
 
 Greetings fellow DEVs! You've probably heard the news about Google Photos
-becoming a paid service as of this month. We were eying this date for a while
+becoming a paid service starting this month. We were eying this date for a while
 and been preparing something that we think is kinda cool. Photos UI in all its
 glory ported to React Native! Here's a peek:
 
