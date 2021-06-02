@@ -7,15 +7,34 @@ all its glory ported to React Native! Here's a peek:
 
 TODO: GIF
 
-TODO: github, give it a start, there's gonna be Kickstarter , subscribe to mailing list, assume reader stops here
+If you like what you see, there are ways you can help us take it to the next
+level:
 
-read on!
+1. Star the repo [on GitHub](https://github.com/functionland/photos)!
+2. Join [the discussions](https://github.com/functionland/photos/discussions),
+tell us what you think about where it should go from here.
+3. Contribute code! Photos is currently being maintained only by
+[Ehsan](https://github.com/ehsan6sha), he's eager to welcome new collaborators!
+4. We have lots of cool things planned, including a Kickstarter campaign!
+[Join the mailing list](https://groups.google.com/g/functionland)
+to hear about all updates!
+5. We're actively seeking funding, if you can help with this in any way, please
+[drop us a message](mailto:keyvan.m.sadeghi@gmail.com)!
+6. You can also follow us on
+[Twitter](https://twitter.com/functionland),
+[Telegram](https://t.me/functionland) and
+[YouTube](https://www.youtube.com/channel/UCAyjxikGGQTcJvjrhZyYhpA).
 
 This is still at prototype stage and not ready for prime time, but we wanted to
 share early to hear your valuable feedback and hopefully have those of you who
-are interested join us to build a community around an ambitious yet nobel goal:
+are interested join us to build a community around an ambitious yet noble goal:
 
-# Ending the reign of the *Big Tech* by building open-source **p2p** apps!
+# Ending *Big Tech*'s reign by building open-source **p2p** apps!
+
+Making Photos paid? Really? Haven't Google already made billions by training AI
+models from our photos and videos? Us
+[being the product](https://www.netflix.com/title/81254224) was not enough, we
+should also pay now?
 
 I don't want to sound arrogant or ungrateful. Truth be told, I personally owe
 Big Tech a great deal! The very ability to write these words for example -- I
@@ -26,15 +45,15 @@ version of Windows that probably even Microsoft wasn't aware of:
 
 Being born into a country disconnected from the global economy, we didn't have
 legitimate access to software such as Windows, but *Mr. MRT* had *BitTorrent*
-and lots of blank CDs to cater us :) *p2p* is the other piece to the puzzle:
+and lots of blank CDs to cater us :) *p2p* was the missing piece to the puzzle:
 although we were in effect using *intellectual property* of Microsoft
 unwarranted, a whole generation of developers was raised thanks to (unlawful)
 democratized access to software.
 Instead of the stereotypic *Jihadists* that the world expected, these people
-turned out quite civilized, many of them who moved abroad are now working for
+turned out quite civilized, some of them who moved abroad are now working for
 the Big Tech. A large population of US citizens, meanwhile, couldn't (by
 enforced law) have access to Windows and some of them ended up attacking the
-Capitol this January!
+Capitol in January!
 
 Hopefully the above example conveys the importance of free access to software,
 free both as in speech and as in beer!
@@ -42,7 +61,7 @@ free both as in speech and as in beer!
 ## Does a workable solution for delivering and maintaining free software actually exist?
 
 Yes and no. There are architectural and operational issues. We can, however,
-arrive at a solution by refactoring to *Web 3.0*! This helps us address several
+arrive at a solution by refactoring to *Web 3.0*! It helps us address several
 challenges:
 
 ### 1. Servers are expensive, how to pay for them without charging the users?
@@ -52,17 +71,17 @@ But why isn't this an issue for dev tools? We've had top notch UIs even
 for niche use cases such as
 [state management in a specific library](https://github.com/tannerlinsley/react-query-devtools).
 Doh! These don't need a server :) our dev machines **are** the server for these
-tools. Hmm... developers have their own servers, right.
+tools. Hmm... developers have their own servers, right...
 
 What if users had their own **"Personal Server"** too? This model has worked
 for the likes of [Plex](https://www.plex.tv/), how about taking it one step
-further? Every house has a fridge for keeping food, would it make sense for it
+further? Every house has a fridge for keeping food, would it make sense
 to also have a **"store of data"**? This is the main idea here, there's a niche
-who already have PCs at home (gamers, people still keeping their old PCs,
-etc.), we can write software that turns these PCs to a server for a household's
-data needs.
+who already have PCs at home (PC gamers, people still keeping their old PCs,
+etc.), we can write software that turns a PC to a server for a household's data
+needs.
 
-In reality, this is the leverage that the Big Tech holds us hostage over:
+In reality, the leverage that the Big Tech holds us hostage over is:
 
 ![HDD pile](./PileHDD.png "Pile of HDDs")
 
@@ -79,12 +98,12 @@ working on each app, how can anyone compete? Don't fret! We can seek help from
 millions of frontend JavaScript developers around the world! They are already
 building all kinds of cool apps. Backend is not really an issues, many of them
 are well versed at using serverless cloud functions. So if we can provide the
-same **"Developer Experience**, we can have these brilliant people aboard!
+same **"Developer Experience"**, can we have these brilliant people aboard?
 
 To address the need for backend, and also the limited compute power of the
 hardware that may be used, the solution that we're currently implementing is
 **"Managed Services"**. For a start, we are developing 2 protocols on top of
-[libp2p](https://github.com/libp2p/js-libp2p):
+[libp2p](https://libp2p.io/):
 
 * **File Protocol**: for uploading and downloading files, this provides the function
 of a traditional file server
@@ -102,6 +121,37 @@ This work is being done in this repository:
 
 [github.com/functionland/box](https://github.com/functionland/box)
 
-### How can developers make a living out of this?
+### 3. If an app is open source, how can the developer make a living from it?
 
-Google Play alternative, OSS coin.
+This one is a long standing question in open source, and *Blockchain* may
+finally give us an answer. It's ironic that prominent blockchains such as
+*Bitcoin* have become somewhat centralized, true decentralization happens when
+average people run validator nodes. That's not the case today, but if there is
+a future where every home has a server, true decentralization can start! Newer
+generation blockchains are way less resource intensive, take
+[Mina](https://minaprotocol.com/) as an example, a snapshot of the whole chain
+will always be 22KB! 
+
+So we can have home servers also be blockchain validator nodes, effectively
+printing money around the clock. We can then have a blockchain version of
+an *App Store*, downloading and updating apps from this store can happen
+on-chain and be paid. But users won't be paying out of pocket, they'll
+pay with a portion of coins mined on their server.
+
+This aspect is still very much at ideation stage, would love to hear what you
+think about it.
+
+### 4. Would the User Experience be compromised in any way?
+
+If anything, UX will be improved. There is no privacy concerns, users
+*physically own* their data. There's no advertisement, no lock-in. And in open
+source, anything that has use cases also has a community of contributors around
+it. So no longer we'll see useful apps become adware (anyone remember
+*ShareIt*?). No orphaned app stuck with last update years ago. All the cool
+things that we developers enjoy in the open source software we use, now up for
+grabs for the masses.
+
+> Eagerly looking forward to hearing your comments! Please don't hesitate to
+bash the whole idea to the ground, we don't mind at all! Only in common wisdom
+shall we thrive, no one soul knows all, most definitely not the two noobs who
+started this :) -- Love and peace, Functionland
