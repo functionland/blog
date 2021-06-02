@@ -24,15 +24,17 @@ version of Windows that probably even Microsoft wasn't aware of:
 [MRT Windows](https://www.shouldiremoveit.com/MRT-Windows-XP-Farsi-Interface-Pack-24170-program.aspx)!
 (MRT being the initials of the dude who created it)
 
-Being born into a sanctioned country, we didn't have legitimate access to
-software such as Windows, but *Mr. MRT* had *BitTorrent* and lots of blank CDs
-to cater us :) *p2p* is the other piece to the puzzle: although we were in
-effect *stealing intellectual property* from Microsoft, a whole generation of
-developers was made thanks to (unlawful) democratized access to software.
-Instead of the stereotypic *Jihadists* that the world expected, we turned out
-quite civilized, many of us who moved abroad are now working for the Big Tech.
-A large population of US citizens, meanwhile, couldn't (by enforced law) have
-access to Windows and some of them ended up attacking the Capitol this January!
+Being born into a country disconnected from the global economy, we didn't have
+legitimate access to software such as Windows, but *Mr. MRT* had *BitTorrent*
+and lots of blank CDs to cater us :) *p2p* is the other piece to the puzzle:
+although we were in effect using *intellectual property* of Microsoft
+unwarranted, a whole generation of developers was raised thanks to (unlawful)
+democratized access to software.
+Instead of the stereotypic *Jihadists* that the world expected, these people
+turned out quite civilized, many of them who moved abroad are now working for
+the Big Tech. A large population of US citizens, meanwhile, couldn't (by
+enforced law) have access to Windows and some of them ended up attacking the
+Capitol this January!
 
 Hopefully the above example conveys the importance of free access to software,
 free both as in speech and as in beer!
@@ -51,7 +53,7 @@ things as low level as
 Doh! These don't need a server :) our dev machines **are** the server for these
 tools. Hmm... so server is the bottleneck again.
 
-What if the users had their own **"Personal Server"**? This model has worked
+What if users had their own **"Personal Server"**? This model has worked
 for the likes of [Plex](https://www.plex.tv/), how about taking it one step
 further? Every house has a fridge for keeping food, would it make sense for it
 to also have a **"store of data"**? This is the main idea here, there's a niche
