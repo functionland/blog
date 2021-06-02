@@ -25,7 +25,7 @@ to hear about all updates!
 [Telegram](https://t.me/functionland) and
 [YouTube](https://www.youtube.com/channel/UCAyjxikGGQTcJvjrhZyYhpA).
 
-This is still at prototype stage and not ready for prime time, but we wanted to
+Photos is still at prototype stage and not ready for prime time, but we wanted to
 share early to hear your valuable feedback and hopefully have those of you who
 are interested join us to build a community around an ambitious yet noble goal:
 
