@@ -31,8 +31,8 @@ are interested join us to build a community around an ambitious yet noble goal:
 
 # Ending *Big Tech*'s reign by building open-source **p2p** apps!
 
-Making Photos paid? Really? Haven't Google already made billions by training AI
-models from our photos and videos? Us
+Making Google Photos paid? Really? Haven't they already made billions by
+training AI models from our pictures and videos? Us
 [being the product](https://www.netflix.com/title/81254224) wasn't enough, we
 should also pay now?
 
