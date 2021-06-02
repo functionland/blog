@@ -33,7 +33,7 @@ are interested join us to build a community around an ambitious yet noble goal:
 
 Making Photos paid? Really? Haven't Google already made billions by training AI
 models from our photos and videos? Us
-[being the product](https://www.netflix.com/title/81254224) was not enough, we
+[being the product](https://www.netflix.com/title/81254224) wasn't enough, we
 should also pay now?
 
 I don't want to sound arrogant or ungrateful. Truth be told, I personally owe
