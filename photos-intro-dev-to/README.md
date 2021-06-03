@@ -1,4 +1,10 @@
-# Google Photos open-source alternative with React Native
+---
+title: Google Photos open-source alternative with React Native
+published: false
+description: An alternative for Google Photos that will always remain free because you'll keep your photos on your own hard drive!
+tags: 
+cover_image: https://raw.githubusercontent.com/functionland/photos/main/assets/images/logo-rectangular.png
+---
 
 Greetings fellow DEVs! You've probably heard the news about Google Photos
 becoming a paid service starting this month. We've been eying this date for a
@@ -29,7 +35,7 @@ This is still at prototype stage and not ready for prime time, but we wanted to
 share early to hear your valuable feedback and hopefully have those of you who
 are interested join us to build a community around an ambitious yet noble goal:
 
-# Ending *Big Tech*'s reign by building open-source **p2p** apps!
+## Ending *Big Tech*'s reign by building open-source **p2p** apps!
 
 Making Photos paid? Really? Haven't Google already made billions by training AI
 models from our photos and videos? Us
@@ -58,13 +64,13 @@ Capitol in January!
 Hopefully the above example conveys the importance of free access to software,
 free both as in speech and as in beer!
 
-## Does a workable solution for delivering and maintaining free software actually exist?
+### Does a workable solution for delivering and maintaining free software actually exist?
 
 Yes and no. There are architectural and operational issues. We can, however,
 arrive at a solution by refactoring to *Web 3.0*! It helps us address several
 challenges:
 
-### 1. Servers are expensive, how to pay for them without charging the users?
+#### 1. Servers are expensive, how to pay for them without charging the users?
 
 True, any application with enough users comes with a big monthly AWS bill.
 But why isn't this an issue for dev tools? We've had top notch UIs even
@@ -91,7 +97,7 @@ can even package this in a gadget for it to be more appealing. We can also
 accommodate for Cloud features like reliable backups in this p2p setting, a
 copy of one's photos can be backed up at another location, e.g. parents' house.
 
-### 2. Doing both backend and frontend is hard
+#### 2. Doing both backend and frontend is hard
 
 Absolutely! We should fix this. Google and the like have armies of developers
 working on each app, how can anyone compete? Don't fret! We can seek help from
@@ -121,7 +127,7 @@ This work is being done in this repository:
 
 [github.com/functionland/box](https://github.com/functionland/box)
 
-### 3. If an app is open source, how can the developer make a living from it?
+#### 3. If an app is open source, how can the developer make a living from it?
 
 This one is a long standing question in open source, and *Blockchain* may
 finally give us an answer. It's ironic that prominent blockchains such as
@@ -141,7 +147,7 @@ pay with a portion of coins mined on their server.
 This aspect is still very much at ideation stage, would love to hear what you
 think about it.
 
-### 4. Would the User Experience be compromised in any way?
+#### 4. Would the User Experience be compromised in any way?
 
 If anything, UX will be improved. There is no privacy concerns, users
 *physically own* their data. There's no advertisement, no lock-in. And in open
