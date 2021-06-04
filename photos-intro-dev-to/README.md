@@ -2,7 +2,7 @@
 title: Google Photos open-source alternative with React Native
 published: true
 description: An alternative for Google Photos that will always remain free because you'll keep your photos on your own hard drive!
-tags: showdev, javascript, react, reactnative
+tags: showdev, javascript, webdev, reactnative
 cover_image: https://raw.githubusercontent.com/functionland/photos/main/assets/images/logo-rectangular.png
 ---
 
@@ -37,7 +37,7 @@ I don't want to sound arrogant or ungrateful. Truth be told, I personally owe Bi
 
 Being born into a country disconnected from the global economy, we didn't have legitimate access to software such as Windows, but *Mr. MRT* had *BitTorrent* and lots of blank CDs to cater us :) *p2p* was the missing piece to the puzzle: although we had in effect *unwarranted access* to Microsoft's *intellectual property*, a whole generation of developers was raised thanks to (unlawful) democratized access to software. Instead of the stereotypic *Jihadists* that the world expected, these people turned out quite civilized, some of them who moved abroad are now working for the Big Tech.
 
-A large population of US citizens, meanwhile, didn't (by enforced law) have free access to Windows. Those who ended up attacking the Capitol in January might've acted different had they been using Windows as kids!
+A large population of US citizens, meanwhile, didn't (by enforced law) have free access to Windows. Those who ended up attacking the Capitol in January might've acted different had they been growing up with Windows as kids!
 
 Hopefully the above example conveys the importance of free access to software, free both as in speech and as in beer!
 
@@ -67,7 +67,7 @@ Absolutely! We need to fix this. Google and the like have armies of developers w
 
 To address the need for backend, and also the limited compute power of the hardware that may be used, the solution that we're currently implementing is **"Managed Services"**. For a start, we are developing 2 protocols on top of [libp2p](https://libp2p.io/):
 
-* **File Protocol**: for uploading and downloading files, this provides the function of a traditional file server
+* **File Protocol**: for uploading and downloading files, this provides the function of a traditional file server.
 * **Data Protocol**: for persisting JSON data. This would be the Web 3.0 equivalent of REST or GraphQL endpoints. By linking the JSON data with [DAG-JSON](https://specs.ipld.io/block-layer/codecs/dag-json), we also get the conventional database-like queries.
 
 Work on more managed services are on the way. We'll need *Machine Learning* services for an app like Photos soon!
@@ -80,16 +80,14 @@ This work is being done in this repository:
 
 #### 3. If an app is open source, how can the developer make a living from it?
 
-This one is a long standing question in open source, and *Blockchain* may finally give us an answer. It's ironic that prominent blockchains such as *Bitcoin* have become somewhat centralized, true decentralization happens when
-average people run validator nodes. That's not the case today, but if there is a future where every home has a server, true decentralization can start! Newer generation blockchains are way less resource intensive, take [Mina](https://minaprotocol.com/) as an example, a snapshot of the whole chain will always be 22KB! 
+This one is a long standing question in open source, and *Blockchain* may finally give us an answer. It's ironic that prominent blockchains such as *Bitcoin* have become somewhat centralized, true decentralization happens when average people run validator nodes. That's not the case today, but if there is a future where every home has a server, true decentralization can start! Newer generation blockchains are way less resource intensive, take [Mina](https://minaprotocol.com/) for example, a snapshot of the whole chain will always be 22KB! 
 
-So we can have home servers also be blockchain validator nodes, effectively printing money around the clock! We can then have a decentralized version of an *App Store*, downloading and updating apps from this store can happen
-on-chain and be paid. But users won't be paying out of pocket, they'll pay with a portion of coins mined on their server (freedom tax :).
+So we can have home servers also be blockchain validator nodes, effectively printing money around the clock! We can then have a decentralized version of an *App Store*, downloading and updating apps from this store can happen on-chain and be paid. But users won't be paying out of pocket, they'll pay with a portion of coins mined on their server (freedom tax :).
 
 This aspect is still very much at ideation stage, we'd would love to brainstorm and hear what you think about it.
 
 #### 4. Would the User Experience be compromised in any way?
 
-If anything, UX will be improved. There is no privacy concerns, users *physically own* their data. There's no advertisement, no lock-in. And in open source, anything that has use cases also has a community of contributors around it. So no longer we'll see useful apps become adware (anyone remember *ShareIt*?). No orphaned app stuck with last update years ago. All the cool things that we developers enjoy in the open source software we use, now up for grabs by the masses.
+If anything, UX will be improved. There is no privacy concern, users *physically own* their data. There's no advertisement, no lock-in. And in open source, anything that has use cases also has a community of contributors around it. So no longer we'll see useful apps become adware (anyone remember *ShareIt*?). No orphaned app stuck with last update from years ago. All the cool things that we developers enjoy in our open source workflow, now up for grabs by the masses in everyday apps!
 
 > Eagerly looking forward to hearing your comments! Please don't hesitate to bash the whole idea to the ground! We don't mind at all. Only in common wisdom shall we thrive, no one soul knows all, most definitely not the noobs who started this :) -- Love and peace, Functionland
